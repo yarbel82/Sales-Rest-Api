@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-docker tag sails-rest-api:create_from_travis  yarbel82/sails-rest-api:create_in_travis
-docker push yarbel82/sails-rest-api:create_in_travis
+docker tag sails-rest-api:create_from_travis  yarbel82/sails-rest-api:Created_In_Travis-CI
+docker push yarbel82/sails-rest-api:Created_In_Travis-Ci
